@@ -61,7 +61,7 @@ public class AuthenticationFilter extends HttpFilter {
 
             String email = jsonWebToken.extractEmailFromToken(token);
             AuthenticationUser user = authenticationService.getUser(email);
-            //@RequestAttribute("authenticationUser") is used in controller
+            //@RequestAttribute("authenticatedUser") is used in controller
             //Here we are setting_attribute, request.setAttribute("authenticatedUser", user);
             request.setAttribute("authenticatedUser", user);
             chain.doFilter(request, response);
