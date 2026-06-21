@@ -228,20 +228,6 @@ Clone repository
 git clone https://github.com/your-username/project-name.git
 ```
 
----
-
-## API Endpoints
-
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| POST | /api/auth/signup | Register user |
-| GET | /api/auth/verify-email | Verify email |
-| POST | /api/auth/login | User login |
-| POST | /api/auth/forgot-password | Send reset email |
-| POST | /api/auth/reset-password | Reset password |
-
----
-
 ## Security Features
 
 - BCrypt password encryption
@@ -250,5 +236,3 @@ git clone https://github.com/your-username/project-name.git
 - Password reset token expiration
 - Input validation
 - Exception handling
-
----
