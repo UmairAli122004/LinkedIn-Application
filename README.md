@@ -26,7 +26,6 @@ A secure Authentication and Authorization system built using Spring Boot. This p
 - Spring Boot
 - Spring Security
 - Spring Data JPA
-- Hibernate
 - JWT (JSON Web Token)
 
 ### Database
