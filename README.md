@@ -22,7 +22,7 @@ A secure Authentication and Authorization system built using Spring Boot. This p
 
 ### Backend
 
-- Java 21 (or Java 17)
+- Java 21
 - Spring Boot
 - Spring Security
 - Spring Data JPA
@@ -48,49 +48,8 @@ A secure Authentication and Authorization system built using Spring Boot. This p
 
 ---
 
-## Project Structure
-
-src/main/java
-
-```
-com.project
-
-├── config
-
-├── controller
-
-├── dto
-
-├── entity
-
-├── repository
-
-├── security
-
-├── service
-
-├── utils
-
-└── exception
-```
 
 ---
-
-## Authentication Flow
-
-### 1. User Registration
-
-User sends:
-
-POST `/api/auth/signup`
-
-```json
-{
-  "name":"John Doe",
-  "email":"john@example.com",
-  "password":"password123"
-}
-```
 
 Process:
 
@@ -152,22 +111,6 @@ Response:
 ```
 
 ---
-
-## 4. Forgot Password
-
-Endpoint:
-
-```text
-POST /api/auth/forgot-password
-```
-
-Request:
-
-```json
-{
-  "email":"john@example.com"
-}
-```
 
 Process:
 
