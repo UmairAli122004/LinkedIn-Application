@@ -44,10 +44,7 @@ A secure Authentication and Authorization system built using Spring Boot. This p
 
 - Lombok
 - Jakarta Mail
-
----
-
-
+  
 ---
 
 Process:
